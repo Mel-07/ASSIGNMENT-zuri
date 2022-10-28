@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1.4;
+ 
+}
+body{
+    font-size: 18px;
+    display: grid;
+    place-items: center;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    background-color: hsla(160, 100%, 75%, 0.473);
+    text-align: left;
+    height: 100vh;
+}
+.container {
+    /* margin:50px auto; */
+    width:270px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    
+    backdrop-filter: blur(3px);
+    box-shadow:   0 3px 10px rgba(0, 0, 0, 0.185);
+    height: 470px;
+    background-color: rgba(255, 255, 255, 0);
+    background-repeat: no-repeat;
+    
+  }

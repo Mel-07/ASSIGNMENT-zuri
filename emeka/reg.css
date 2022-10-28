@@ -1,0 +1,217 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1.4;
+ 
+}
+body{
+    font-size: 18px;
+    display: grid;
+    place-items: center;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    background-color: hsla(160, 100%, 75%, 0.473);
+    text-align: left;
+    height: 100vh;
+}
+.bg{
+    clip-path: polygon(32% 33%, 100% 0, 71% 68%, 0 100%);
+    width: 100%;
+    height: 100%;
+    background: #0f0f0f;
+    position: absolute;
+    z-index: -2;
+
+}
+.wapper{
+  width: 350px;
+   max-height: 700px;
+    display:grid;
+    grid-template-columns: 1fr;
+    background-color:#fff;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.438);
+    backdrop-filter: blur(5px);
+   
+  margin:3% auto ;
+    
+
+}
+
+
+form{
+    display: flex;
+    flex-direction: column;
+  
+   
+}
+
+form > div{
+    margin: 3% 2%;
+    display: flex;
+    
+   
+
+}
+.box-1{
+    display: flex;
+    flex-direction: column;
+}
+.box-1 div{
+    display: inline;
+}
+.box-1  input[type="text"]{
+    margin-top: 2%;
+    width: 45%;
+    padding-bottom: 2%;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    border-bottom: 1px solid #000;
+}
+
+.box-1-2{
+    margin-left: 2%;
+}
+
+
+
+
+form > div:nth-child(2){
+    display: flex;
+    flex-direction: column;
+}
+
+.box-2 input[type="text"]{
+    margin-top: 2%;
+    width: 95%;
+    padding-bottom: 2%;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #000;
+    background-color: transparent;
+  
+}
+.box-2 >div{
+    display: flex;
+}
+div>.gender{
+        width: 30%;
+        padding-bottom: 2%;
+        border: none;
+        outline: none;
+        border-bottom: 1px solid #000;
+}
+div > .date{
+   width: 61%;
+    margin-left: 3%;
+    padding-bottom: 2%;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #000;
+}
+
+
+form > div:nth-child(3){
+display: flex;
+flex-direction: column;
+}
+
+.box-3 input[type="email"]{
+    width: 95%;
+    margin-top: 2%;
+    padding-bottom: 2%;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #000;
+    
+}
+
+
+form > div:nth-child(4){
+    display: flex;
+flex-direction: column;
+
+}
+
+
+
+
+div > .area-code{
+    width: 20%;
+    padding-bottom: 2%;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #000;
+}
+div > .phone{
+    width: 72%;
+    margin-left: 2%;
+    padding-bottom: 2%;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #000;
+}
+
+
+form div:nth-child(5){
+    display: flex;
+    flex-direction: column;
+    
+}
+
+form div:nth-child(5) > input{
+    width: 40%;
+    margin-top: 2%;
+    outline: none;
+    background-color: transparent;
+    border: none;
+}
+input{
+    background-color: transparent;
+    line-height: 1.4;
+
+    
+   }
+   .btn{
+    width: 70px;
+    margin-top: 2.5%;
+    color: #fff;
+    border: none;
+    padding: 1% 1%;
+    text-decoration: none;
+    background-color: rgb(19, 16, 12);
+    
+   }
+   .btn:hover{
+    border-top: 1px solid black;
+    border-bottom: 0px solid black;
+    background-color:rgba(127, 255, 212, 0.274) ;
+    border-radius: 10px;
+    transition: ease-in-out .3s;
+    background-image: linear-gradient(120deg, #25954c, rgba(255, 255, 255, 0), #33c968);
+    
+   }
+   .btn:active{
+    transform: scaleX(100%);
+   
+    
+   }
+   div > p{
+    font-size: 12px;
+    margin-top: 5%;
+   }
+   div > p>a{
+    font-size: 12px;
+    margin-top: 5%;
+    text-decoration: none;
+    color: red;
+   }
+   div:nth-child(5) label{
+    font-size: 18px;
+   }
+   
+  
+ 
+  
+ 

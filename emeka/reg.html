@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register to our link</title>
+    <link rel="stylesheet" href="reg.css" />
+  </head>
+  <body>
+    <div class="bg"></div>
+    <div class="wapper">
+      <form action="">
+        <div class="box-1">
+          <label>Name</label>
+          <div>
+            <input type="text" placeholder="First name"  pattern="[A-Za-z]{10}" required />
+            <input type="text" class="box-1-2" placeholder="Last name" pattern="[A-Za-z]{10}" required />
+          </div>
+        </div>
+
+        <div class="box-2">
+          <label for="company">Gender / Date of Birth</label>
+          <div>
+            <select id="Gender" name="Gender" class="gender" required>
+              <option value="none">Gender</option>
+              <option value="ML">Male</option> 
+              <option value="FM">Female</option>
+              <option value="OT">Other</option>
+            </select>
+            <input type="date" id="" placeholder="Date of Birth " class="date" required pattern="\d{4}-\d{2}-\d{2}"  />
+          </div>
+        </div>
+
+        <div class="box-3">
+          <label for="email">Email</label>
+          <input type="email" placeholder="example@gmail.com" id="email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"  />
+        </div>
+
+        <div class="box-4">
+          <label>Phone</label>
+          <div>
+            <input type="tel" class="area-code"  aria-hidden="true" required placeholder="+234"pattern="([1-9]).{3,}" />
+            <input type="tel" class="phone" placeholder="Phone number" required pattern="([1-9]).{10,}"/>
+          </div>
+        </div> 
+        <div>
+          <label for="Color">Best color</label>
+          <input type="color" id="color">
+
+          <div>
+            <p>Are you an existing customer <a href="log.html">Login?</a></p>
+          </div>
+          <a href="sucess.html" class="btn">Signup</a>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

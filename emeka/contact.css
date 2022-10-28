@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&family=League+Spartan:wght@700&family=Open+Sans:ital,wght@0,700;1,400&family=Poppins:wght@600&family=Roboto&display=swap');
+:root{
+    --btn:#007fff;
+  }
+*{
+    box-sizing: border-box;
+    line-height: 1.4;
+    font-size: 1rem;
+    font-family: 'Open Sans', sans-serif;
+    padding: 0;
+    margin: 0;
+  }
+  html, body {
+    height: 100%;
+    width: 100%;
+    font-family: inherit;
+  }
+  body{
+    background:  #d4dcff;
+    display: grid;
+    row-gap: 1rem;
+    grid-template-columns: 1fr;
+    grid-template-rows: 10% .2fr ;
+  }
+  header{
+    background: #d4dcff;
+  }
+  nav{
+    max-width: 1050px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    margin:1rem auto;
+  }
+   ul{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+   ul li a{
+    text-decoration: none;
+    color: #000;
+   
+  }
+  ul li {
+    list-style: none;
+    margin: 1rem;
+    color: #000;
+    padding: 1rem;
+    border: 1px solid black;
+   
+  }
+  h3> strong{
+    color:#000;
+  }
+  strong> span{
+  border-left:2px solid var(--btn) ;
+    margin: 2%;
+    
+  }
+  
+ nav> a{
+    text-decoration: none;
+    color: var(--btn);
+    cursor: pointer;
+    color: #000;
+    border: 1px solid black;
+    padding: 0 1rem;
+  }
+   
+
+ 
+  nav> a:hover{
+    color: #fff;
+    background: #000;
+  transform: scale(120%);
+  }
+  .con{
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+    margin: 0 auto;
+    text-align: center;
+    background-color:#444b6e ;
+    display: flex;
+    flex-direction: column;
+    color: #dff;
+  }
+  .con >h1{
+    margin: 0 .2rem;
+  }
+  i{
+    margin-right: 1rem;
+    color: #fff;
+  }
